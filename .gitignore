@@ -1,0 +1,49 @@
+# 编译输出
+build/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
+# 可执行文件
+zoom_shell_demo
+zoom_shell
+
+# 配置文件
+zoom_config.json
+
+# 日志文件
+*.log
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 调试
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+
+# 插件
+*.so.example
+sample_plugin.c
